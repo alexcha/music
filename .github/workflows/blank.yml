@@ -1,0 +1,4 @@
+action "Setup" {
+  uses = "jcblw/bash@master"
+  args = [" curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=1" | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>",]/ /g' "]
+}
