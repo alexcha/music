@@ -1,8 +1,10 @@
 name: Shell Scripts Unit Testing
 
-on: [push,schedule]
+on: [push]
 
-- cron:  '* 04 * * *'
+on:
+  schedule:
+  - cron: "0 0 * * *"
   
 jobs:
   build:
