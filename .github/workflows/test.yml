@@ -1,6 +1,5 @@
 name: Shell Scripts Unit Testing
 
-on: [push]
 
 on:
   schedule:
