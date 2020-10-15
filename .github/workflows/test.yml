@@ -1,4 +1,40 @@
-action "Setup" {
-  uses = "jcblw/bash@master"
-  args = ["cat <<<$MY_VAR > file.csv"]
-}
+name: Linting
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+
+jobs:
+
+  yamllint:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Get yamllint config file from dotfiles
+        env:
+          # yamllint disable-line rule:line-length
+          CONFIG_FILE: https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
+        run: ./$CONFIG_FILE
+
+      - name: Run YAML linter
+        uses: bewuethr/yamllint-action@v1
+        with:
+          config-file: .github/workflows/get_list.sh
+
+
+
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Run shellcheck
+        uses: bewuethr/shellcheck-action@v2
