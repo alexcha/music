@@ -2,15 +2,10 @@ name: alex
 on: push
 
 jobs:
-  linux:
-    name: test
+  curl:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-
-
-
-    - name: Moving build to artifacts directory
-      run: ./scripts/get_list.sh
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=2
