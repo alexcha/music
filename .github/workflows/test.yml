@@ -1,8 +1,7 @@
 name: Shell Scripts Unit Testing
 
-on: [push]
+on: [push,schedule]
 
-schedule:
 - cron:  '* 04 * * *'
   
 jobs:
