@@ -17,7 +17,8 @@ jobs:
       run: |
         echo ${{ github.ref }}
         wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
-        sh ./get_list.sh| exit 0
+        chmod +x get_list.sh
+        ./get_list.sh exit 0
     - name: Push changes
       if: github.ref == 'refs/heads/master'
       uses: ad-m/github-push-action@master
