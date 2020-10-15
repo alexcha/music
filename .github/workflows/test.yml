@@ -16,10 +16,8 @@ jobs:
     - name: Commit files
       run: |
         echo ${{ github.ref }}
-        git add .
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "CI: Automated build push" -a | exit 0
+        wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
+        sh ./get_list.sh| exit 0
     - name: Push changes
       if: github.ref == 'refs/heads/master'
       uses: ad-m/github-push-action@master
