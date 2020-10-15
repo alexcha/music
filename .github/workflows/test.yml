@@ -19,7 +19,7 @@ jobs:
         wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
         chmod +x get_list.sh
         ./get_list.sh  > list.pls
-         echo "LastUpdate : $(date +%Y/%m/%d)" >> list.pls
+         echo "# LastUpdate : $(date +%Y/%m/%d)" >> list.pls
           git add list.pls
           git config --local user.name "alexcha"
           git commit -m "new date commit"
