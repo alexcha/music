@@ -1,40 +1,23 @@
-name: Linting
-
-on:
-  push:
-    branches:
-      - '**'
-    tags-ignore:
-      - '**'
+name: CI
+on: push
 
 jobs:
-
-  yamllint:
+  linux:
+    name: Linux build on node ${{ matrix.node_version }}
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [8.x, 10.x]
+
     steps:
+    - name: Checkout
+      uses: actions/checkout@v1
 
-      - name: Check out code
-        uses: actions/checkout@v2
-
-      - name: Get yamllint config file from dotfiles
-        env:
-          # yamllint disable-line rule:line-length
-          CONFIG_FILE: https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
-        run: ./$CONFIG_FILE
-
-      - name: Run YAML linter
-        uses: bewuethr/yamllint-action@v1
-        with:
-          config-file: .github/workflows/get_list.sh
+    - name: Set Node.js version ${{ matrix.node_version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node_version }}
 
 
-
-  shellcheck:
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Check out code
-        uses: actions/checkout@v2
-
-      - name: Run shellcheck
-        uses: bewuethr/shellcheck-action@v2
+    - name: Moving build to artifacts directory
+      run: ./scripts/get_list.sh
