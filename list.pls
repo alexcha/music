@@ -1,3 +1,5 @@
+# LastUpdate : date +%Y/%m/%d/%H:%M:%S
+#
 [playlist]
 File1=http://jun28w.saycast.com
 Title1=명품트로트
@@ -115,4 +117,3 @@ File57=http://gh08.saycast.com
 Title57=의성자두트로트
 NumberOfEntries=57
 Version=2
-# LastUpdate : 2020/10/15
