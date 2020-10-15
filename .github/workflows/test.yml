@@ -18,7 +18,11 @@ jobs:
         echo ${{ github.ref }}
         wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
         chmod +x get_list.sh
-        ./get_list.sh exit 0
+        ./get_list.sh  > list.txt
+          git add list.txt
+          git commit -m "new date commit"
+          git push origin main | exit 0
+          
     - name: Push changes
       if: github.ref == 'refs/heads/master'
       uses: ad-m/github-push-action@master
