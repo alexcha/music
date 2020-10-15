@@ -18,7 +18,7 @@ jobs:
         echo ${{ github.ref }}
         wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
         chmod +x get_list.sh
-        echo "# LastUpdate : date +%Y/%m/%d/%H:%M:%S" > list.pls
+        echo " LastUpdate : date +%Y/%m/%d/%H:%M:%S > list.pls
         echo "#" >> list.pls
         ./get_list.sh  >> list.pls
           git add list.pls
