@@ -2,6 +2,9 @@ name: Shell Scripts Unit Testing
 
 on: [push]
 
+schedule:
+- cron:  '* 04 * * *'
+  
 jobs:
   build:
     runs-on: ubuntu-latest
