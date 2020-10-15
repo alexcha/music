@@ -3,7 +3,7 @@ on: push
 
 jobs:
   linux:
-    name: Linux build on node ${{ matrix.node_version }}
+    name: test
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -13,10 +13,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Set Node.js version ${{ matrix.node_version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node_version }}
 
 
     - name: Moving build to artifacts directory
