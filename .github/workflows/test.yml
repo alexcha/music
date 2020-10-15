@@ -27,4 +27,4 @@ jobs:
       if: github.ref == 'refs/heads/master'
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.MUSIC_KEY }}
