@@ -1,4 +1,4 @@
-name: Shell Scripts Unit Testing
+name: Streaming list update
 
 on: 
   push:
