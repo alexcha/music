@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "#"
+echo \#LastUpdate: `date +%Y/%m/%d/%H:%M:%S`
 
 echo [playlist]
  
