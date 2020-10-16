@@ -1,5 +1,5 @@
 #
-#LastUpdate: 2020-10-16 10:52
+#LastUpdate: 2020-10-16 11:35
 [playlist]
 File1=http://jun28w.saycast.com
 Title1=명품트로트
@@ -109,7 +109,9 @@ File53=http://1202.saycast.com
 Title53=인생간이역방송국
 File54=http://ziqkfp.saycast.com
 Title54=금강산캬바레
-File55=http://youkg122.saycast.com
-Title55=선이트로트
-NumberOfEntries=55
+File55=http://dbsgmldhkgka.saycast.com
+Title55=행복나드리
+File56=http://youkg122.saycast.com
+Title56=선이트로트
+NumberOfEntries=56
 Version=2
