@@ -26,6 +26,7 @@ jobs:
           git add list.pls
           git config --local user.name "alexcha"
           git commit -m "new date commit"
+          git branch -M main
           git push origin main | exit 0
           
     - name: Push changes
