@@ -6,9 +6,10 @@ echo [playlist]
  
 
 id_one=(`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=1" | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>,]/ /g' | tr -d '"' | awk '{print $1}'`)
-id_two=(`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=2" | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>,]/ /g' | tr -d '"' | awk '{print $1}'`)
 name_one=(`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=1" | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>,]/ /g' | tr -d '"' | awk '{print $2}'`)
+
 name_two=(`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=2" | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>,]/ /g' | tr -d '"' | awk '{print $2}'`)
+id_two=(`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=2" | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>,]/ /g' | tr -d '"' | awk '{print $1}'`)
 
 id=(${id_one[@]} ${id_two[@]} )
 name=(${name_one[@]} ${name_two[@]} )
