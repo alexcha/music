@@ -1,5 +1,5 @@
 #
-#LastUpdate: 2020/10/16/01:42:15
+#LastUpdate: 2020-10-16 10:52
 [playlist]
 File1=http://jun28w.saycast.com
 Title1=명품트로트
