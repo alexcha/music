@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#"
-echo \#LastUpdate: `date +%Y/%m/%d/%H:%M:%S`
+echo \#LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
 echo [playlist]
  
