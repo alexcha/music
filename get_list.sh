@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "#"
-echo "엄마/아빠를 위한~"
-echo \#LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
+echo "# 엄마/아빠를 위한~"
+echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
 echo [playlist]
  
