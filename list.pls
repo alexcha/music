@@ -1,6 +1,6 @@
 #
 # 엄마/아빠를 위한~
-# LastUpdate: 2020-10-27 10:50
+# LastUpdate: 2020-10-27 13:17
 [playlist]
 File1=http://xmfhxmchlrh.saycast.com
 Title1=트로트최고
@@ -94,19 +94,23 @@ File45=http://jong0088.saycast.com
 Title45=중년들의트로트
 File46=http://bmarin99.saycast.com
 Title46=트로트캠프
-File47=http://mmmcom.saycast.com
-Title47=메아리트로트
-File48=http://henseng.saycast.com
-Title48=음악세일트로트
-File49=http://dndlf123.saycast.com
-Title49=휴식의공간
-File50=http://youkg122.saycast.com
-Title50=선이트로트
-File51=http://asm.saycast.com
-Title51=힐링트로트
-File52=http://wwtkey1066.saycast.com
-Title52=트로트마을
-File53=http://ziqkfp.saycast.com
-Title53=금강산캬바레
-NumberOfEntries=53
+File47=http://wlalsdl62.saycast.com
+Title47=사랑이트로트
+File48=http://mmmcom.saycast.com
+Title48=메아리트로트
+File49=http://henseng.saycast.com
+Title49=음악세일트로트
+File50=http://qntksrhkddks.saycast.com
+Title50=광안트로트
+File51=http://dndlf123.saycast.com
+Title51=휴식의공간
+File52=http://youkg122.saycast.com
+Title52=선이트로트
+File53=http://asm.saycast.com
+Title53=힐링트로트
+File54=http://wwtkey1066.saycast.com
+Title54=트로트마을
+File55=http://ziqkfp.saycast.com
+Title55=금강산캬바레
+NumberOfEntries=55
 Version=2
