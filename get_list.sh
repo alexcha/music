@@ -6,6 +6,7 @@ echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 echo [playlist]
 
 one=`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=1" -o  1.txt`
+sleep 10
 two=`curl -s "http://saycast.sayclub.com/saycast/index/station?kind=genrelist&catGenre=mTR&page=2" -o  2.txt`
 
 id_one=(`cat 1.txt | grep ic_onairS.gif  | awk '{print $2}'  | awk -F "/" '{print $7 }' | sed 's/[<>,]/ /g' | tr -d '"' | awk '{print $1}'`)
