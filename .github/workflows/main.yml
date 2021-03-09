@@ -27,6 +27,7 @@ jobs:
         ./get_list.sh  > list.pls
         ./get_list2.sh  > list2.pls
           git add list.pls
+          git add list2.pls
           git config --local user.name "alexcha"
           git commit -m "new date commit"
           git branch -M main
