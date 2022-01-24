@@ -1,25 +1,15 @@
 #
-# LastUpdate: 2022-01-23 13:17
+# LastUpdate: 2022-01-24 13:17
 [playlist]
-File1=http://musictravel2.saycast.com
-Title1=음악여행l
-File2=http://dlahrroffjfl.saycast.com
-Title2=자유공간
-File3=http://angel5678.saycast.com
-Title3=한사람만을위한방송
-File4=http://sdasadfasd.saycast.com
-Title4=모기정말싫어
-File5=http://love4u.saycast.com
-Title5=소울발라드
-File6=http://cham333k.saycast.com
-Title6=기차와소나무
-File7=http://asd05.saycast.com
-Title7=마지막ll별
-File8=http://redcoffee.saycast.com
-Title8=LastLove
-File9=http://zjvlgiddmfh.saycast.com
-Title9=커피향으로
-File10=http://y6878.saycast.com
-Title10=신사트롯4050
-NumberOfEntries=10
+File1=http://dusrkd1206.saycast.com
+Title1=사랑2
+File2=http://angel5678.saycast.com
+Title2=한사람만을위한방송
+File3=http://dlahrroffjfl.saycast.com
+Title3=자유공간
+File4=http://herbholic72.saycast.com
+Title4=Roman발라드
+File5=http://ollaeu.saycast.com
+Title5=뮤직올래유
+NumberOfEntries=5
 Version=2
