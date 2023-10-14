@@ -1,21 +1,20 @@
 #
 # ì—„ë§ˆ/ì•„ë¹ ë¥¼ ìœ„í•œ~
-# LastUpdate: 2023-10-14 22:14
+# LastUpdate: 2023-10-14 22:28
+
 
 
 
 [playlist]
-File1=http://File1=http://live07.inlive.co.kr:11860.saycast.com
-Title1=
-File2=http://File1=http://live09.inlive.co.kr:10680.saycast.com
-Title2=
-File3=http://File1=http://live06.inlive.co.kr:18280.saycast.com
-Title3=
-File4=http://File1=http://live10.inlive.co.kr:10560.saycast.com
-Title4=
-File5=http://File1=http://live06.inlive.co.kr:14380.saycast.com
-Title5=
-File6=http://File1=http://live07.inlive.co.kr:18250.saycast.com
-Title6=
-NumberOfEntries=6
+File1=http://live07.inlive.co.kr:11860
+Title1=Æ®·ÔÆ®ÁÖ¸·
+File2=http://live09.inlive.co.kr:10680
+Title2=¹æ¼Û±¹(24½Ã°£
+File3=http://live06.inlive.co.kr:18280
+Title3=¹æ¼Û)
+File4=http://live10.inlive.co.kr:10560
+Title4=´ë¼¼´Â
+File5=http://live07.inlive.co.kr:18250
+Title5=Æ®·ÎÆ®³Ñ¹ö¿ø¢ÂÁøÇà:²É´Ù¹æÁø¾ç¢Â´ã:²É´Ù¹æÁø¾ç(R)
+NumberOfEntries=5
 Version=2
