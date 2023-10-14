@@ -1,6 +1,11 @@
 #
 # 엄마/아빠를 위한~
-# LastUpdate: 2023-10-15 00:19
+# LastUpdate: 2023-10-15 00:31
+iconv (Ubuntu GLIBC 2.35-0ubuntu3.3) 2.35
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Written by Ulrich Drepper.
 
 
 
