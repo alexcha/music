@@ -24,8 +24,8 @@ jobs:
        
         chmod +x get_list.sh
         
-        bash -x ./get_list.sh 
-        cat list2.txt
+         get_list.sh && cat list2.txt
+        
           git add list.pls
           
           git config --local user.name "alexcha"
