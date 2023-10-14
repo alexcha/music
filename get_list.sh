@@ -3,6 +3,8 @@ echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
+iconv --version
+
 echo > list2.txt
 for i in `cat list.txt`
 do
