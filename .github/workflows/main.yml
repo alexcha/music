@@ -23,9 +23,9 @@ jobs:
         wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
        
         chmod +x get_list.sh
-        cat list2.txt
-        sh -x ./get_list.sh 
         
+        sh -x ./get_list.sh 
+        cat list2.txt
           git add list.pls
           
           git config --local user.name "alexcha"
