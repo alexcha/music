@@ -3,19 +3,16 @@ echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
-
 echo > list2.txt
 for i in `cat list.txt`
 do
-        ck=`curl -s $i.inlive.co.kr/live/listen.pls | grep  'File1=http'`
+        ck=`curl -s $i.inlive.co.kr/live/listen.pls | grep  File1\=http`
 
        if [ $? -eq 0 ]
 
        then
 
- curl -s $i.inlive.co.kr/live/listen.pls | grep -A 1 File1=http | iconv -f euc-kr -t utf-8  >> list2.txt
-
-
+       curl -s $i.inlive.co.kr/live/listen.pls | grep -A 1 File1\=http | iconv -f euc-kr -t utf-8  >> list2.txt
 else
        echo ''
        fi
