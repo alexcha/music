@@ -3,7 +3,7 @@ echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
-echo > list2.txt
+curl -s "https://www.inlive.co.kr/ajaxGetTopLiveList?hashtag=%ED%8A%B8%EB%A1%9C%ED%8A%B8" | jq -r '.result[].f_bsid' > list2.txt
 for i in `cat list.txt`
 do
         ck=`curl -s $i.inlive.co.kr/live/listen.pls | grep  File1\=http`
