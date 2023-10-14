@@ -3,6 +3,7 @@ echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
+
 echo > list2.txt
 for i in `cat list.txt`
 do
@@ -18,11 +19,11 @@ else
        fi
 done
 
-id_one=(`cat list2.txt| grep 'File1=http' |awk -F 'File1=' '{for (i=2; i<=NF; i++) print $i}'` )
-name_one=(`cat list2.txt| grep Title1| awk -F 'Title1=' '{for (i=2; i<=NF; i++) print $i}'| sed  's/ /_/g'`)
+id_one=`cat list2.txt| grep "File1=http" |awk -F 'File1=' '{for (i=2; i<=NF; i++) print $i}'`
+name_one=`cat list2.txt| grep Title1| awk -F 'Title1=' '{for (i=2; i<=NF; i++) print $i}'| sed  's/ /_/g'`
 
-id=(${id_one[@]} )
-name=(${name_one[@]} )
+id=${id_one[@]}
+name=${name_one[@]}
 
 echo [playlist]
 length=${#id[@]}
