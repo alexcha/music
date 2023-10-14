@@ -24,7 +24,7 @@ jobs:
        
         chmod +x get_list.sh
         
-         ./get_list.sh && cat list2.txt
+         ./get_list.sh > list.pls
         
           git add list.pls
           
