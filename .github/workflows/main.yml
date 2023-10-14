@@ -27,7 +27,7 @@ jobs:
          ./get_list.sh > list.pls
          echo "cat start"
 
-         cat list2.txt
+         curl http://kbk7648.inlive.co.kr/live/listen.pls
          echo "cat end "
 
 
