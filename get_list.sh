@@ -2,6 +2,8 @@
 echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
+
+export LANG="ko_KR.UTF-8"
 echo > list2.txt
 for i in `cat list.txt`
 do
@@ -17,8 +19,8 @@ else
        fi
 done
 
-id_one=(`cat list2.txt| grep File1\=http `)
-name_one=(`cat list2.txt| grep Title1`)
+id_one=(`cat list2.txt| grep File1\=http | awk -F 'File1=' '{print $2}' `)
+name_one=(`cat list2.txt| grep Title1 | awk -F 'Title1=' '{print $2}'`)
 
 id=(${id_one[@]} )
 name=(${name_one[@]} )
@@ -27,7 +29,7 @@ echo [playlist]
 length=${#id[@]}
 for j in `seq 0 $(($length-1))`
 do
-        echo "File$(($j+1))=http://${id[$j]}.saycast.com"
+        echo "File$(($j+1))=${id[$j]}"
         echo "Title$(($j+1))=${name[$j]}"
 done
 
