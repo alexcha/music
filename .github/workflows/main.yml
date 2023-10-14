@@ -25,12 +25,7 @@ jobs:
         chmod +x get_list.sh
         
          ./get_list.sh > list.pls
-         echo "cat start"
-
-         curl http://kbk7648.inlive.co.kr/live/listen.pls
-         echo "cat end "
-
-
+          sed -i '/^$/d' list.pls
           git add list.pls
           
           git config --local user.name "alexcha"
