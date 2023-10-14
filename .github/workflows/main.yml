@@ -21,7 +21,7 @@ jobs:
       run: |
         echo ${{ github.ref }}
         wget https://raw.githubusercontent.com/alexcha/music/main/get_list.sh
-       
+        export LANG=ko_KR
         chmod +x get_list.sh
         
          ./get_list.sh > list.pls
