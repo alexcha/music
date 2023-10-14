@@ -2,8 +2,6 @@
 echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
-
-export LANG="ko_KR.UTF-8"
 echo > list2.txt
 for i in `cat list.txt`
 do
