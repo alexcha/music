@@ -25,7 +25,7 @@ jobs:
         chmod +x get_list.sh
         
          ./get_list.sh > list.pls
-          sed -i '/^$/d' list.pls
+       
           git add list.pls
           
           git config --local user.name "alexcha"
