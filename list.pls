@@ -1,12 +1,12 @@
 #
-# LastUpdate: 2023-10-15 11:57
+# LastUpdate: 2023-10-15 12:01
 [playlist]
-File1=http://live09.inlive.co.kr:10680
-Title1=대세는_트로트넘버원◈진행:_꽃다방진양◈담:_물결
-File2=http://live07.inlive.co.kr:11860
-Title2=트롯트주막_방송국_(24시간방송)
-File3=http://live06.inlive.co.kr:11240
-Title3=소낭구_트로트
+File1=http://live06.inlive.co.kr:11240
+Title1=소낭구_트로트
+File2=http://live09.inlive.co.kr:10680
+Title2=◈대세는_트로트넘버원◈진행:물결◈담:나비은지(첫방)
+File3=http://live07.inlive.co.kr:11860
+Title3=트롯트주막_방송국_(24시간방송)
 File4=http://live06.inlive.co.kr:18280
 Title4=트로트
 File5=http://live06.inlive.co.kr:10010
