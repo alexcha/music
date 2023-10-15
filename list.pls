@@ -1,5 +1,5 @@
 #
-# LastUpdate: 2023-10-15 17:21
+# LastUpdate: 2023-10-15 17:39
 [playlist]
 File1=http://live09.inlive.co.kr:10680
 Title1=◈대세는_트로트넘버원◈◈진행:아로마향기◈담:하나사랑
@@ -9,15 +9,17 @@ File3=http://live07.inlive.co.kr:19800
 Title3=걍_~~~~~~~~~~~~~
 File4=http://live09.inlive.co.kr:12100
 Title4=옛가요메아리
-File5=http://live03.inlive.co.kr:16050
-Title5=트로트
-File6=http://live10.inlive.co.kr:10560
-Title6=트로트방송
-File7=http://live06.inlive.co.kr:18280
-Title7=트로트
-File8=http://live07.inlive.co.kr:18690
-Title8=미미트로트
-File9=http://live06.inlive.co.kr:14380
-Title9=세아음악
-NumberOfEntries=9
+File5=http://live10.inlive.co.kr:10130
+Title5=ㄷ
+File6=http://live03.inlive.co.kr:16050
+Title6=트로트
+File7=http://live10.inlive.co.kr:10560
+Title7=트로트방송
+File8=http://live06.inlive.co.kr:18280
+Title8=트로트
+File9=http://live07.inlive.co.kr:18690
+Title9=미미트로트
+File10=http://live06.inlive.co.kr:14380
+Title10=세아음악
+NumberOfEntries=10
 Version=2
