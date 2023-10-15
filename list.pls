@@ -1,5 +1,5 @@
 #
-# LastUpdate: 2023-10-15 11:06
+# LastUpdate: 2023-10-15 11:57
 [playlist]
 File1=http://live09.inlive.co.kr:10680
 Title1=대세는_트로트넘버원◈진행:_꽃다방진양◈담:_물결
@@ -15,7 +15,5 @@ File6=http://live07.inlive.co.kr:18690
 Title6=미미트로트
 File7=http://live06.inlive.co.kr:14380
 Title7=세아음악
-File8=http://live10.inlive.co.kr:10560
-Title8=트로트방송
-NumberOfEntries=8
+NumberOfEntries=7
 Version=2
