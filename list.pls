@@ -1,16 +1,21 @@
 #
-# 엄마/아빠를 위한~
-# LastUpdate: 2023-10-15 09:12
+# LastUpdate: 2023-10-15 10:10
 [playlist]
-File1=http://live07.inlive.co.kr:11860
-Title1=트롯트주막_방송국_(24시간방송)
-File2=http://live09.inlive.co.kr:10680
-Title2=◈대세는_트로트넘버원◈진행:우정향기◈담:꽃별
-File3=http://live06.inlive.co.kr:18280
-Title3=트로트
-File4=http://live10.inlive.co.kr:10560
-Title4=트로트방송
-File5=http://live06.inlive.co.kr:14380
-Title5=세아음악
-NumberOfEntries=5
+File1=http://live09.inlive.co.kr:10680
+Title1=대세는_트로트넘버원◈진행:꽃다방진양(R)◈담:버드리
+File2=http://live07.inlive.co.kr:11860
+Title2=트롯트주막_방송국_(24시간방송)
+File3=http://live06.inlive.co.kr:11240
+Title3=소낭구_트로트
+File4=http://live06.inlive.co.kr:18280
+Title4=트로트
+File5=http://live06.inlive.co.kr:10010
+Title5=트롯과함께~~~
+File6=http://live07.inlive.co.kr:18690
+Title6=미미트로트
+File7=http://live06.inlive.co.kr:14380
+Title7=세아음악
+File8=http://live10.inlive.co.kr:10560
+Title8=트로트방송
+NumberOfEntries=8
 Version=2
