@@ -1,6 +1,6 @@
 #
 # 엄마/아빠를 위한~
-# LastUpdate: 2023-10-15 09:02
+# LastUpdate: 2023-10-15 09:12
 [playlist]
 File1=http://live07.inlive.co.kr:11860
 Title1=트롯트주막_방송국_(24시간방송)
