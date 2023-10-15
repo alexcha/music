@@ -3,19 +3,12 @@ echo "#"
 echo "# 엄마/아빠를 위한~"
 echo \# LastUpdate: `date -d +9hour "+%Y-%m-%d %H:%M"`
 
-curl -s "https://www.inlive.co.kr/ajaxGetTopLiveList?hashtag=%ED%8A%B8%EB%A1%9C%ED%8A%B8" | jq -r '.result[].f_bsid' > list2.txt
+echo > list2.txt
+curl "https://www.inlive.co.kr/ajaxGetTopLiveList?hashtag=%ED%8A%B8%EB%A1%9C%ED%8A%B8" | jq -r '.result[].f_bsid' > list.txt
 for i in `cat list.txt`
 do
-        ck=`curl -s $i.inlive.co.kr/live/listen.pls | grep  File1\=http`
-
-       if [ $? -eq 0 ]
-
-       then
 
        curl -s $i.inlive.co.kr/live/listen.pls | grep -A 1 File1\=http | iconv -f euc-kr -t utf-8  >> list2.txt
-else
-       echo ''
-       fi
 done
 
 id_one=(`cat list2.txt| grep File1\=http |awk -F 'File1=' '{for (i=2; i<=NF; i++) print $i}'`)
