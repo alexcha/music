@@ -29,8 +29,10 @@ jobs:
          sed -i '/^\s*$/d' list.pls
           git add list.pls
           
-          git config --local user.name "alexcha"
-          git config --global user.email {{ secrets.EMAILKEY }}
+          #git config --local user.name "alexcha"
+          git config --global user.email music@local
+          git config --global user.name music
+
           git commit -m "new date commit"
           git branch -M main
           git push origin main | exit 0
