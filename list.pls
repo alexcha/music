@@ -1,19 +1,23 @@
 #
-# LastUpdate: 2023-10-15 12:01
+# LastUpdate: 2023-10-15 12:30
 [playlist]
-File1=http://live06.inlive.co.kr:11240
-Title1=소낭구_트로트
-File2=http://live09.inlive.co.kr:10680
-Title2=◈대세는_트로트넘버원◈진행:물결◈담:나비은지(첫방)
-File3=http://live07.inlive.co.kr:11860
-Title3=트롯트주막_방송국_(24시간방송)
-File4=http://live06.inlive.co.kr:18280
+File1=http://live09.inlive.co.kr:10680
+Title1=◈대세는_트로트넘버원◈진행:물결◈담:나비은지(첫방)
+File2=http://live07.inlive.co.kr:11860
+Title2=트롯트주막_방송국_(24시간방송)
+File3=http://live10.inlive.co.kr:10560
+Title3=트로트방송
+File4=http://live03.inlive.co.kr:16050
 Title4=트로트
 File5=http://live06.inlive.co.kr:10010
-Title5=트롯과함께~~~
-File6=http://live07.inlive.co.kr:18690
-Title6=미미트로트
-File7=http://live06.inlive.co.kr:14380
-Title7=세아음악
-NumberOfEntries=7
+Title5=트롯과함께_즐겁고_행복한하루_되세요
+File6=http://live06.inlive.co.kr:11240
+Title6=소낭구_트로트
+File7=http://live06.inlive.co.kr:18280
+Title7=트로트
+File8=http://live07.inlive.co.kr:18690
+Title8=미미트로트
+File9=http://live06.inlive.co.kr:14380
+Title9=세아음악
+NumberOfEntries=9
 Version=2
