@@ -25,6 +25,5 @@ do
         echo "Title$(($j+1))=${name[$j]}"
 done
 
-
 echo NumberOfEntries=${#id[@]}
 echo Version=2
