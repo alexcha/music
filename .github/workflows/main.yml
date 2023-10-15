@@ -30,6 +30,7 @@ jobs:
           git add list.pls
           
           git config --local user.name "alexcha"
+          git config --global user.email {{ secrets.EMAILKEY }}
           git commit -m "new date commit"
           git branch -M main
           git push origin main | exit 0
