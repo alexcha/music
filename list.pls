@@ -1,14 +1,14 @@
 #
-# LastUpdate: 2023-10-16 11:37
+# LastUpdate: 2023-10-16 13:35
 [playlist]
 File1=http://live07.inlive.co.kr:11860
 Title1=트롯트주막_방송국_(24시간방송)
-File2=http://live09.inlive.co.kr:10680
-Title2=◈_대세는_트로트넘버원_◈진행:들샘◈담:김미지◈
-File3=http://live07.inlive.co.kr:10620
-Title3=소소한_일상을_나누는_시간
-File4=http://live07.inlive.co.kr:24950
-Title4=음악만.................
+File2=http://live09.inlive.co.kr:11200
+Title2=트로트가요무대
+File3=http://live07.inlive.co.kr:13100
+Title3=용궁트롯가요방
+File4=http://live09.inlive.co.kr:11380
+Title4=온누리트로트_콜센터
 File5=http://live06.inlive.co.kr:18280
 Title5=트로트
 File6=http://live10.inlive.co.kr:10560
