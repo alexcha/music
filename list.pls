@@ -1,5 +1,5 @@
 #
-# LastUpdate: 2023-10-18 10:33
+# LastUpdate: 2023-10-18 11:36
 [playlist]
 File1=http://live07.inlive.co.kr:11860
 Title1=트롯트주막_방송국_(24시간방송)
