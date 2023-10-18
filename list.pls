@@ -1,12 +1,12 @@
 #
-# LastUpdate: 2023-10-18 13:35
+# LastUpdate: 2023-10-18 15:36
 [playlist]
-File1=http://live07.inlive.co.kr:11860
-Title1=트롯트주막_방송국_(24시간방송)
-File2=http://live06.inlive.co.kr:14990
-Title2=♡날마다_좋은날_하세요_()_♡
-File3=http://live03.inlive.co.kr:11670
-Title3=세미곡
+File1=http://live09.inlive.co.kr:10680
+Title1=◈대세는_트로트넘버원◈진행_:꽃별◈담:아로마향기
+File2=http://live07.inlive.co.kr:11860
+Title2=트롯트주막_방송국_(24시간방송)
+File3=http://live06.inlive.co.kr:14990
+Title3=♡날마다_좋은날_하세요_()_♡
 File4=http://live06.inlive.co.kr:18280
 Title4=종합뮤직_트롯트_사랑방
 File5=http://live07.inlive.co.kr:10620
