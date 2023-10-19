@@ -1,10 +1,10 @@
 #
-# LastUpdate: 2023-10-19 10:32
+# LastUpdate: 2023-10-19 11:35
 [playlist]
-File1=http://live07.inlive.co.kr:11860
-Title1=트롯트주막_방송국_(24시간방송)
-File2=http://live09.inlive.co.kr:10680
-Title2=◈대세는_트로트넘버원◈진행:하나사랑◈담:꽃별
+File1=http://live09.inlive.co.kr:10680
+Title1=◈대세는_트로트넘버원◈진행:하나사랑◈담:꽃별
+File2=http://live07.inlive.co.kr:11860
+Title2=트롯트주막_방송국_(24시간방송)
 File3=http://live07.inlive.co.kr:24950
 Title3=음악만.................
 File4=http://live07.inlive.co.kr:10620
