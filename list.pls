@@ -1,19 +1,23 @@
 #
-# LastUpdate: 2023-10-22 03:35
+# LastUpdate: 2023-10-22 05:35
 [playlist]
 File1=http://live09.inlive.co.kr:10680
 Title1=◈대세는_트로트넘버원◈진행:하느리(R)__◈담:버드리
 File2=http://live07.inlive.co.kr:11860
-Title2=트롯트주막_방송국_(24시간방송)
-File3=http://live06.inlive.co.kr:10010
-Title3=트롯과함께_즐겁고_행복한시간_되세요
-File4=http://live10.inlive.co.kr:10560
-Title4=트로트방송
-File5=http://live07.inlive.co.kr:18350
-Title5=저~_하늘별처럼_그대와_함꼐_음악동행_^^
-File6=http://live07.inlive.co.kr:18690
-Title6=미미트로트
-File7=http://live06.inlive.co.kr:11240
-Title7=소낭구_트로트
-NumberOfEntries=7
+Title2=트롯트주막_방송국(24시간_방송)
+File3=http://live09.inlive.co.kr:11200
+Title3=트로트가요무대
+File4=http://live06.inlive.co.kr:14990
+Title4=♡노래.가요.트로트♡
+File5=http://live06.inlive.co.kr:10010
+Title5=트롯과함께_즐겁고_행복한시간_되세요
+File6=http://live10.inlive.co.kr:10560
+Title6=트로트방송
+File7=http://live07.inlive.co.kr:18350
+Title7=저~_하늘별처럼_그대와_함꼐_음악동행_^^
+File8=http://live07.inlive.co.kr:18690
+Title8=미미트로트
+File9=http://live06.inlive.co.kr:11240
+Title9=소낭구_트로트
+NumberOfEntries=9
 Version=2
