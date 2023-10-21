@@ -1,5 +1,5 @@
 #
-# LastUpdate: 2023-10-21 10:30
+# LastUpdate: 2023-10-21 11:35
 [playlist]
 File1=http://live09.inlive.co.kr:10680
 Title1=◈_대세는_트로트넘버원_◈진행:들샘◈담:김미지◈
@@ -9,8 +9,8 @@ File3=http://live07.inlive.co.kr:11860
 Title3=트롯트주막_방송국_(24시간방송)
 File4=http://live06.inlive.co.kr:10170
 Title4=금사랑뮤직
-File5=http://live06.inlive.co.kr:15750
-Title5=백운대
+File5=http://live07.inlive.co.kr:11850
+Title5=♡_DJ_K-9_♡
 File6=http://live06.inlive.co.kr:18280
 Title6=트로트
 File7=http://live10.inlive.co.kr:10560
