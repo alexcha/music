@@ -1,23 +1,21 @@
 #
-# LastUpdate: 2023-10-24 05:35
+# LastUpdate: 2023-10-24 07:35
 [playlist]
 File1=http://live07.inlive.co.kr:11860
 Title1=트롯트주막_방송국_(24시간방송)
-File2=http://live07.inlive.co.kr:20390
-Title2=사랑해트로트
-File3=http://live09.inlive.co.kr:11200
-Title3=트로트가요무대
-File4=http://live09.inlive.co.kr:10680
-Title4=◈대세는_트로트넘버원◈진행:_뜨아(R)◈담:버드리◈
+File2=http://live09.inlive.co.kr:10680
+Title2=◈대세는_트로트넘버원_◈진행:버드리◈담:우정향기◈
+File3=http://live07.inlive.co.kr:20390
+Title3=사랑해트로트
+File4=http://live06.inlive.co.kr:18280
+Title4=트로트
 File5=http://live10.inlive.co.kr:10560
 Title5=트로트방송
 File6=http://live06.inlive.co.kr:10010
 Title6=트롯과함께~~~^^
 File7=http://live07.inlive.co.kr:18690
 Title7=미미트로트
-File8=http://live06.inlive.co.kr:11240
-Title8=소낭구_트로트
-File9=http://live03.inlive.co.kr:16830
-Title9=indie。pop。ballad。etc。
-NumberOfEntries=9
+File8=http://live03.inlive.co.kr:16830
+Title8=indie。pop。ballad。etc。
+NumberOfEntries=8
 Version=2
