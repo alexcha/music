@@ -1,16 +1,16 @@
 #
-# LastUpdate: 2023-10-25 15:36
+# LastUpdate: 2023-10-25 17:36
 [playlist]
 File1=http://live09.inlive.co.kr:10680
-Title1=◈대세는_트로트넘버원◈진행:우정향기◈담:아로마향기
+Title1=◈대세는_트로트넘버원◈진행:아로마향기◈담:윈드◈
 File2=http://live07.inlive.co.kr:11860
 Title2=트롯트주막_방송국_(24시간방송)
 File3=http://live10.inlive.co.kr:10560
 Title3=트로트방송
-File4=http://live06.inlive.co.kr:18280
-Title4=◐종합뮤직트롯♬사랑방◑
-File5=http://live03.inlive.co.kr:16050
-Title5=트로트
+File4=http://live07.inlive.co.kr:10620
+Title4=스카프_한_장의_포근함을_느끼는_계절_가을......
+File5=http://live06.inlive.co.kr:18280
+Title5=◐종합뮤직트롯♬사랑방◑
 File6=http://live07.inlive.co.kr:18690
 Title6=미미트로트
 File7=http://live06.inlive.co.kr:14380
