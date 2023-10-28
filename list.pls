@@ -1,21 +1,23 @@
 #
-# LastUpdate: 2023-10-28 11:35
+# LastUpdate: 2023-10-28 13:35
 [playlist]
 File1=http://live09.inlive.co.kr:10680
-Title1=◈대세는_트로트넘버원◈진행:까칠소담◈담:우정향기◈
+Title1=◈대세는_트로트넘버원◈진행:우정향기◈담:나비은지
 File2=http://live07.inlive.co.kr:11860
 Title2=트롯트주막_방송국_(24시간방송)
 File3=http://live10.inlive.co.kr:10560
-Title3=트로트방송
-File4=http://live07.inlive.co.kr:21510
-Title4=불곡산
-File5=http://live07.inlive.co.kr:16340
-Title5=트로트시험방송중
-File6=http://live06.inlive.co.kr:14990
-Title6=♡노래.가요.트로트♡
-File7=http://live07.inlive.co.kr:18690
-Title7=미미트로트
-File8=http://live06.inlive.co.kr:14380
-Title8=세아음악
-NumberOfEntries=8
+Title3=트로트_방송
+File4=http://live07.inlive.co.kr:18250
+Title4=음악여행
+File5=http://live03.inlive.co.kr:11170
+Title5=러브스토
+File6=http://live07.inlive.co.kr:21510
+Title6=불곡산
+File7=http://live06.inlive.co.kr:14990
+Title7=♡노래.가요.트로트♡
+File8=http://live07.inlive.co.kr:18690
+Title8=미미트로트
+File9=http://live06.inlive.co.kr:14380
+Title9=세아음악
+NumberOfEntries=9
 Version=2
