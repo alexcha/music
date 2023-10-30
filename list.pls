@@ -1,16 +1,16 @@
 #
-# LastUpdate: 2023-10-30 10:33
+# LastUpdate: 2023-10-30 11:36
 [playlist]
-File1=http://live10.inlive.co.kr:10560
-Title1=트로트방송
+File1=http://live07.inlive.co.kr:11860
+Title1=트롯트주막_방송국_(24시간방송)
 File2=http://live09.inlive.co.kr:10680
 Title2=◈_대세는_트로트넘버원_◈진행:들샘◈담:김미지◈
-File3=http://live07.inlive.co.kr:11860
-Title3=트롯트주막_방송국_(24시간방송)
-File4=http://live06.inlive.co.kr:18280
-Title4=◐종합뮤직트롯♬사랑방◑
-File5=http://live07.inlive.co.kr:10620
-Title5=스카프_한_장의_포근함을_느끼는_계절_가을......
+File3=http://live10.inlive.co.kr:10560
+Title3=트로트방송
+File4=http://live07.inlive.co.kr:10620
+Title4=스카프_한_장의_포근함을_느끼는_계절_가을......
+File5=http://live06.inlive.co.kr:18280
+Title5=◐종합뮤직트롯♬사랑방◑
 File6=http://live07.inlive.co.kr:21510
 Title6=불곡산
 File7=http://live07.inlive.co.kr:18690
