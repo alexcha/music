@@ -15,6 +15,4 @@ File6=http://pb3.inlive.co.kr:10090
 Title6=♡라이브사랑24♡
 File7=http://pb1.inlive.co.kr:10110
 Title7=트롯트주막
-File8=http://live07.inlive.co.kr:18690
-Title8=트로트방송
-NumberOfEntries=8
+NumberOfEntries=7
