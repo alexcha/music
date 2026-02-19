@@ -1,7 +1,7 @@
 #
 # LastUpdate: 2023-10-27 07:35
 [playlist]
-File1=http://live03.inlive.co.kr:13600
+File1=http://pb1.inlive.co.kr:10100
 Title1=로얄ll트로트
 File2=http://pb1.inlive.co.kr:10070
 Title2=비전트로트
