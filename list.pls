@@ -17,4 +17,6 @@ File7=http://pb1.inlive.co.kr:10110
 Title7=트롯트주막
 File8=http://pb3.inlive.co.kr:10140
 Title8=👑*.° 쎄미트롯 *.°👑
-NumberOfEntries=8
+File9=http://pb1.inlive.co.kr:10050
+Title9=하늘호수방송국
+NumberOfEntries=9
