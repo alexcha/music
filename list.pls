@@ -19,4 +19,6 @@ File8=http://pb3.inlive.co.kr:10140
 Title8=👑*.° 쎄미트롯 *.°👑
 File9=http://pb1.inlive.co.kr:10050
 Title9=하늘호수방송국
-NumberOfEntries=9
+File10=http://ive09.inlive.co.kr:10030
+Title10=💙🎧◀╉연우뮤직™╊▶🎧💙
+NumberOfEntries=10
